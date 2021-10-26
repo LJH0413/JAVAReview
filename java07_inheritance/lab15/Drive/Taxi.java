@@ -1,0 +1,10 @@
+package java07_inheritance.lab15.Drive;
+
+public class Taxi extends Vehicle {
+	
+	@Override
+	public void run() {
+		System.out.println("택시가 달립니다.");
+	}
+
+}
