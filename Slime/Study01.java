@@ -30,34 +30,23 @@ public class Study01 {
 
             // 입력된 숫자에 따라 대상 슬라임 정하기
             if (target == 1) {
-
                 s = s1;
-
             } else if (target == 2) {
-
                 s = s2;
-
             } else {
-
                 System.out.println("올바른 숫자를 입력하세요");
-
             }
 
             // 슬라임이 살아있을때만 공격
             if (s.hp < 1) {
-
                 System.out.println(s.name + "는 이미 죽어있다\n");
-
             } else {
-
                 h.attack(s);
                 s.attack(h);
-
             }
 
             // 슬라임이 모두 죽으면 게임 클리어
             if (s1.hp < 1 && s2.hp < 1) {
-
                 JOptionPane.showMessageDialog(null, "Game Clear!");
                 System.exit(0);
             }
