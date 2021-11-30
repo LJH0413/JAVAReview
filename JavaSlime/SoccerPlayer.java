@@ -1,4 +1,4 @@
-package Slime;
+package JavaSlime;
 
 public class SoccerPlayer {
 
