@@ -1,4 +1,4 @@
-package Constuctor;
+package object.constuctor;
 
 public class ObjectClass {
     public int x;
